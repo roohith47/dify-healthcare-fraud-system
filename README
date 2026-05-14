@@ -1,0 +1,21 @@
+# AI-Powered Healthcare Fraud Detection
+
+This project uses Dify workflows and AI models to identify suspicious healthcare claims before payment.
+
+## Features
+- Fraud Detection
+- Risk Scoring
+- Claims Analysis
+- Human Review Pipeline
+
+## Tech Stack
+- Dify
+- OpenAI
+- Python
+- Streamlit
+
+## Import Workflow
+1. Download the `.yml` file
+2. Open Dify
+3. Click Import DSL
+4. Upload the file
