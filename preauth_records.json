@@ -1,0 +1,590 @@
+{
+  "UNKNOWN": {
+    "patient_name": "David Ortiz",
+    "member_id": "UNKNOWN",
+    "submissions": [
+      {
+        "id": "PA-1778813690",
+        "date": "May 14, 2026",
+        "timestamp": "2026-05-14T22:54:50.108290",
+        "procedure": "Unknown Procedure",
+        "risk_score": 42,
+        "risk_level": "medium",
+        "result": {
+          "risk_score": 42,
+          "risk_level": "Medium",
+          "denial_reasons": [
+            "Conservative treatment history not documented: UHC Maryland Medicaid Managed Care typically requires evidence of failed conservative management (e.g., physical therapy, NSAIDs, activity modification) for a minimum of 4\u20136 weeks prior to approving surgical arthroscopy (CPT 29881).",
+            "Diagnosis code M23.221 (Derangement of anterior horn of medial meniscus due to old tear or injury, right knee) must be clearly corroborated by imaging findings \u2014 MRI confirmation of meniscal tear is a standard prerequisite; no MRI report reference has been submitted with this request.",
+            "Functional impairment documentation absent: The request does not include objective documentation of pain severity, range-of-motion limitations, or functional disability scores (e.g., KOOS, Lysholm) that demonstrate the medical necessity of surgical intervention over continued conservative care.",
+            "Operative indication clarity: It is not specified whether this is a medial or lateral meniscectomy, which is required to match the diagnosis code M23.221 (medial meniscus, right knee) to the correct surgical approach and confirm clinical alignment."
+          ],
+          "missing_documentation": [
+            "MRI report of the right knee confirming meniscal tear consistent with M23.221 (anterior horn, medial meniscus, right knee)",
+            "Documentation of conservative treatment attempts and duration (physical therapy notes, medication trials, injection history) with documented failure or inadequate response",
+            "Physician clinical notes detailing symptom onset, duration, severity, and functional limitations",
+            "Objective functional assessment scores (e.g., KOOS, Lysholm Scale, or equivalent) demonstrating meaningful impairment",
+            "Explicit operative plan specifying medial vs. lateral meniscectomy to confirm alignment with M23.221",
+            "Patient history of prior knee injuries or surgeries, if applicable, to support medical necessity",
+            "Attestation or letter of medical necessity signed by the treating orthopedic surgeon"
+          ],
+          "recommended_fixes": [
+            "Attach the full MRI radiology report for the right knee, ensuring the radiologist's interpretation explicitly references the anterior horn of the medial meniscus tear \u2014 this is the single most critical supporting document for CPT 29881 under this diagnosis.",
+            "Submit structured clinical notes or a letter of medical necessity from the treating orthopedic surgeon documenting at least 4\u20136 weeks of failed conservative management, including specific therapies tried (e.g., formal physical therapy program, NSAID regimen, corticosteroid injection) with dates and outcomes.",
+            "Include objective functional impairment documentation \u2014 standardized knee outcome scores (KOOS or Lysholm) or range-of-motion measurements \u2014 to demonstrate that the patient's quality of life and function are significantly impacted and that surgery is the appropriate next step.",
+            "Clarify in the operative plan that this is a medial meniscectomy of the right knee, explicitly tying the procedure to the M23.221 diagnosis code to eliminate any ambiguity that could trigger a medical necessity or coding mismatch denial.",
+            "Confirm that Provider NPI 1686526231 is enrolled and credentialed with UnitedHealthcare Community Plan \u2014 Maryland Medicaid Managed Care prior to resubmission, as out-of-network or non-credentialed providers are a common administrative denial trigger.",
+            "Verify that the submitting provider has active Maryland Medicaid participation status, as UHC Maryland Medicaid Managed Care requires in-network participation for elective surgical procedures to be authorized."
+          ],
+          "summary": "This prior authorization request for CPT 29881 (knee arthroscopy with meniscectomy) carries a medium denial risk (42/100) primarily due to missing conservative treatment failure documentation and the absence of a supporting MRI report \u2014 both of which are standard prerequisites under UHC Maryland Medicaid Managed Care policy for elective orthopedic surgery. The diagnosis code M23.221 is appropriate for the procedure requested, but without imaging confirmation and documented failed conservative care, the clinical necessity of proceeding to surgery cannot be established by the payer. The provider should urgently attach the MRI radiology report, structured clinical notes reflecting 4\u20136 weeks of failed conservative management, and a signed letter of medical necessity before resubmitting to significantly improve the likelihood of approval."
+        }
+      },
+      {
+        "id": "PA-1778813912",
+        "date": "May 14, 2026",
+        "timestamp": "2026-05-14T22:58:32.635959",
+        "procedure": "Unknown Procedure",
+        "risk_score": 18,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 18,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "Physical therapy course (8 visits) may fall marginally short of some UHC Maryland Medicaid Managed Care policies that specify a minimum of 6\u201312 weeks of formal supervised PT \u2014 however, the documented 8-visit plateau with concurrent home exercise program (~8 weeks) and the full 14+ week conservative care window likely satisfies the spirit of this requirement; low-confidence denial risk but worth proactively addressing in the LMN narrative",
+            "Mild medial compartment chondral thinning noted on MRI could prompt a payer reviewer to question whether the primary pain generator is chondral/arthritic rather than meniscal, potentially raising a 'not medically necessary' concern if the clinical narrative does not explicitly link mechanical symptoms (catching, locking) to the confirmed meniscal tear rather than the chondral finding",
+            "Corticosteroid injection provided only ~1 week of partial relief \u2014 some payer reviewers may flag that a single injection trial is insufficient; if policy requires documentation of two injection attempts or a defined minimum response window, this could be cited"
+          ],
+          "missing_documentation": [
+            "Explicit payer-specific PT visit count confirmation: while 8 supervised visits are documented, the submission should include a clear statement from the treating PT (Dana Lewis, PT DPT) that the patient reached a documented functional plateau and that further PT is unlikely to produce meaningful improvement \u2014 this bridges any gap if UHC Maryland Medicaid requires a specific visit threshold",
+            "Operative facility (Harborview Ambulatory Surgery Center) in-network status confirmation letter or reference number \u2014 while noted as in-network, a formal network verification attachment or ASC NPI/facility ID should be included to prevent administrative denial",
+            "Explicit documentation ruling out significant osteoarthritis as the primary diagnosis: the radiograph (03/01/2026) showed mild medial compartment joint space narrowing and MRI confirmed mild chondral thinning \u2014 the LMN should include a direct statement from Dr. Bennett that the mechanical symptoms are attributable to the confirmed meniscal tear (M23.221) and not to degenerative joint disease, to preempt a 'conservative management of arthritis' redirection",
+            "Anesthesia clearance or pre-operative evaluation documentation, if required by UHC Maryland Medicaid Managed Care for outpatient surgical procedures under this plan type",
+            "Confirmation that the PCP referral from Samuel Ortiz, MD (NPI 1841293765) dated 05/01/2026 is valid and active at time of surgery (06/10/2026) \u2014 some Maryland Medicaid Managed Care plans require referral validity windows (e.g., 90 days); the 05/01 referral for a 06/10 procedure is within a typical window but should be explicitly confirmed"
+          ],
+          "recommended_fixes": [
+            "Strengthen the Letter of Medical Necessity (LMN) by adding a dedicated paragraph that explicitly attributes the mechanical symptoms \u2014 catching, locking, and functional limitation \u2014 specifically to the posterior horn medial meniscus tear confirmed on MRI, and clearly distinguishes these from the mild chondral thinning, which is documented as incidental and not the primary pain generator",
+            "Request a supplemental narrative addendum from Dana Lewis, PT DPT documenting the objective functional plateau: include pre- and post-PT functional scores, specific functional goals that were not achieved, and a clinical statement that the patient is unlikely to achieve further meaningful improvement with continued conservative care \u2014 this directly addresses any PT sufficiency question",
+            "Add a brief clinical note from Dr. Bennett addressing the single corticosteroid injection: document that a second injection was considered but deferred given the confirmed structural meniscal tear on MRI, the mechanical nature of symptoms (which are not expected to respond to repeat injection), and the risk of further cartilage compromise \u2014 this preempts a 'single injection is insufficient' objection",
+            "Include the Harborview Ambulatory Surgery Center's NPI and in-network verification reference in the submission cover sheet to eliminate any administrative/facility eligibility denial pathway",
+            "Confirm and document the referral validity window for the UHC Maryland Medicaid Community Plan: if the plan requires re-authorization or referral renewal beyond 60 days, obtain an updated or extended referral from Dr. Ortiz prior to the 06/10/2026 surgical date",
+            "Ensure the functional outcome scores (KOOS-ADL 52/100, Lysholm 54/100, VAS 6.5/10) are explicitly cited in the LMN with reference ranges, not only in the clinical notes \u2014 payer reviewers may not cross-reference attachments, and embedding these scores in the LMN narrative directly strengthens the medical necessity argument"
+          ],
+          "summary": "This prior authorization request for CPT 29881 (Right Knee Arthroscopy with Partial Medial Meniscectomy) is well-documented overall and carries a low denial risk of approximately 18/100. The submission includes a confirmed MRI with structural meniscal pathology, a failed 14+ week conservative care course, objective functional impairment scores, a signed LMN, a PCP referral, and all 14 required attachments. The primary residual risks are: (1) a payer reviewer potentially attributing symptoms to mild chondral changes rather than the meniscal tear \u2014 which should be explicitly addressed in the LMN; (2) the PT course (8 visits) requiring a documented plateau statement to satisfy any minimum threshold requirement; and (3) minor administrative gaps around facility in-network confirmation and referral validity. Addressing these targeted items before submission will bring denial risk to near-minimal levels."
+        }
+      },
+      {
+        "id": "PA-1778826875",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T02:34:35.842188",
+        "procedure": "Unknown Procedure",
+        "risk_score": 42,
+        "risk_level": "medium",
+        "result": {
+          "risk_score": 42,
+          "risk_level": "Medium",
+          "denial_reasons": [
+            "Insufficient documentation of conservative treatment failure: UHC Maryland Medicaid Managed Care typically requires evidence of at least 6 weeks of conservative therapy (physical therapy, NSAIDs, activity modification) prior to approving surgical arthroscopy unless acute trauma or locked knee is documented.",
+            "Diagnosis code M23.221 (Derangement of anterior horn of medial meniscus due to old tear or injury, right knee) must be supported by objective imaging \u2014 an MRI report confirming medial meniscal tear is expected but not confirmed as submitted.",
+            "No clinical notes or functional impairment documentation included in the submission to establish medical necessity for surgical intervention over continued conservative management.",
+            "Maryland Medicaid Managed Care may require a second opinion or orthopedic specialist consultation note prior to approving elective knee arthroscopy, which is not referenced in this request."
+          ],
+          "missing_documentation": [
+            "MRI report of the right knee confirming medial meniscal tear consistent with M23.221 (must be recent, typically within 6\u201312 months).",
+            "Documentation of conservative treatment attempts: physical therapy records, duration, frequency, and outcome; trial of NSAIDs or other analgesics with documented failure.",
+            "Orthopedic surgeon's clinical office notes detailing physical examination findings (e.g., McMurray test, joint line tenderness, range of motion limitations) and functional impairment.",
+            "Operative necessity statement or letter of medical necessity from the treating orthopedic surgeon explaining why surgical intervention is required at this time.",
+            "Documentation ruling out or addressing any contraindications (e.g., patient comorbidities, BMI, anticoagulation status) that could affect surgical candidacy.",
+            "Confirmation of whether this is an acute traumatic presentation (which may waive conservative treatment requirements) or a chronic/degenerative condition."
+          ],
+          "recommended_fixes": [
+            "Attach the full MRI radiology report for the right knee, ensuring the radiologist's impression explicitly references a medial meniscal tear correlating to diagnosis M23.221.",
+            "Submit a detailed conservative treatment history \u2014 include physical therapy attendance records, dates of service, therapist progress notes, and a clear statement that symptoms persisted or worsened despite 6+ weeks of therapy.",
+            "Include the orthopedic surgeon's most recent office visit notes (within 90 days) documenting objective clinical findings, functional limitations (e.g., inability to bear weight, mechanical symptoms such as locking or catching), and the clinical rationale for proceeding to surgery.",
+            "Provide a formal Letter of Medical Necessity (LMN) on provider letterhead that explicitly states: (1) diagnosis with supporting evidence, (2) conservative treatments tried and failed, (3) how CPT 29881 is the least invasive appropriate intervention, and (4) expected functional outcome.",
+            "Verify that Provider NPI 1686526231 is credentialed and in-network with UHC Community Plan Maryland Medicaid Managed Care prior to submission to avoid a separate administrative denial.",
+            "If the clinical scenario involves acute trauma (e.g., sports injury with acute meniscal tear), clearly document the mechanism of injury and onset date in the submission \u2014 this may allow the conservative treatment requirement to be waived under urgent/emergent criteria."
+          ],
+          "summary": "This prior authorization request for CPT 29881 (knee arthroscopy with meniscectomy) carries a medium denial risk primarily because the submission lacks documentation of failed conservative treatment, objective MRI findings, and detailed clinical notes supporting surgical necessity \u2014 all of which are standard requirements under UHC Maryland Medicaid Managed Care policy for elective orthopedic procedures. The diagnosis code M23.221 is appropriate for the requested procedure, and the member ID, group number, and NPI appear properly formatted, so the administrative foundation is sound. To significantly reduce denial risk, the provider should resubmit with a complete MRI report, physical therapy records demonstrating treatment failure, a recent orthopedic office note with objective findings, and a formal Letter of Medical Necessity before the authorization deadline."
+        }
+      },
+      {
+        "id": "PA-1778866255",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T13:30:55.737459",
+        "procedure": "Unknown Procedure",
+        "risk_score": 42,
+        "risk_level": "medium",
+        "result": {
+          "risk_score": 42,
+          "risk_level": "Medium",
+          "denial_reasons": [
+            "Insufficient documentation of conservative treatment failure: UnitedHealthcare Maryland Medicaid Managed Care typically requires evidence of failed conservative management (e.g., physical therapy, NSAIDs, activity modification) for a minimum of 4\u20136 weeks prior to approving surgical arthroscopy.",
+            "Diagnosis code M23.221 (Derangement of anterior horn of medial meniscus due to old tear or injury, right knee) must be clearly corroborated by imaging reports \u2014 an MRI of the right knee confirming meniscal pathology is generally required and may not have been submitted.",
+            "Functional impairment documentation may be absent: Payer policy typically requires objective documentation of functional limitation (e.g., range of motion deficits, inability to perform ADLs or work duties) to establish medical necessity for surgical intervention.",
+            "No operative or clinical notes submitted confirming the specific laterality and meniscal involvement align with the requested CPT code (29881 \u2014 medial or lateral meniscectomy), creating a potential mismatch risk."
+          ],
+          "missing_documentation": [
+            "MRI report of the right knee confirming anterior horn medial meniscus tear or derangement consistent with M23.221",
+            "Conservative treatment records documenting at least 4\u20136 weeks of failed non-surgical management (physical therapy notes, NSAID prescriptions, activity modification plan)",
+            "Physician clinical notes detailing onset, duration, and severity of symptoms, including functional impairment and pain scores",
+            "Operative indication summary or letter of medical necessity from the treating orthopedic surgeon explicitly justifying surgical intervention over continued conservative care",
+            "Confirmation of laterality (right knee) documented consistently across all submitted clinical records to match ICD-10 code M23.221"
+          ],
+          "recommended_fixes": [
+            "Submit the full MRI radiology report for the right knee, ensuring the radiologist's findings explicitly reference the anterior horn of the medial meniscus and correlate with the M23.221 diagnosis code.",
+            "Include dated physical therapy records, office visit notes, or pharmacy records demonstrating a minimum 4\u20136 week trial of conservative treatment that has been unsuccessful in relieving symptoms.",
+            "Attach a detailed Letter of Medical Necessity (LMN) from the orthopedic surgeon outlining: (1) diagnosis and imaging findings, (2) conservative treatments attempted and duration, (3) current functional limitations, and (4) clinical rationale for proceeding with CPT 29881.",
+            "Ensure all documentation consistently references the right knee and medial meniscus to avoid laterality or specificity mismatches that could trigger a technical denial.",
+            "Verify that the rendering provider NPI (1686526231) is enrolled and active in the UnitedHealthcare Maryland Medicaid Managed Care network prior to submission, as out-of-network surgical providers may require additional authorization steps."
+          ],
+          "summary": "This prior authorization request for knee arthroscopy with meniscectomy (CPT 29881) for patient Jordan M. Ellis carries a medium denial risk, primarily due to likely gaps in conservative treatment failure documentation and supporting imaging. UnitedHealthcare Maryland Medicaid Managed Care requires clear evidence that non-surgical options have been exhausted, supported by MRI findings and detailed clinical notes before approving elective orthopedic surgery. The provider should submit a comprehensive Letter of Medical Necessity along with physical therapy records and the MRI report to significantly strengthen this request before resubmission."
+        }
+      },
+      {
+        "id": "PA-1778875009",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T15:56:49.848016",
+        "procedure": "ACL Reconstruction with Simultaneous Medial Meniscus Root Repair and Microfracture for Chondral Defect - CPT 29888, 29882, 29879",
+        "risk_score": 72,
+        "risk_level": "high",
+        "result": {
+          "risk_score": 72,
+          "risk_level": "High",
+          "denial_reasons": [
+            "Missing Insurance Member ID \u2014 request cannot be processed or matched to an active member record",
+            "Missing Provider NPI \u2014 required for provider credentialing verification and claim routing; submission is incomplete without it",
+            "Missing Insurance Plan and Group Number \u2014 payer cannot confirm active coverage, benefit tier, or applicable policy guidelines",
+            "No Letter of Medical Necessity (LMN) present \u2014 most payers require a formal physician-authored LMN for complex multi-procedure arthroscopic surgeries, particularly when combining ACL reconstruction with cartilage and meniscal procedures",
+            "No corticosteroid or viscosupplementation injection therapy documented \u2014 many payers require at least one documented injection attempt (or documented clinical contraindication) prior to approving surgical intervention for chondral defects and meniscal pathology",
+            "Allograft tendon selection for ACL reconstruction requires explicit medical justification \u2014 payers typically require documented rationale for allograft over autograft in patients under 50, as autograft is considered the standard of care and allograft carries higher re-rupture risk in active patients; no such justification is present",
+            "Microfracture (CPT 29879) for a Grade III/IV chondral defect in a 45-year-old may face scrutiny \u2014 some payers consider microfracture investigational or lower-priority versus other cartilage restoration procedures, and the 1.5 cm defect size and patient age require explicit clinical rationale supporting this approach over alternatives",
+            "Missing member date of birth \u2014 required administrative field for member identity verification",
+            "Physical therapy documented as failed but only 8 weeks of PT is noted \u2014 some payers require a minimum of 12 weeks of conservative therapy (including structured PT) before approving ACL reconstruction, particularly in chronic ACL deficiency cases without acute instability requiring emergency surgery"
+          ],
+          "missing_documentation": [
+            "Insurance Member ID (blank \u2014 must be provided)",
+            "Provider NPI (blank \u2014 must be provided)",
+            "Insurance Plan name (blank \u2014 must be provided)",
+            "Group Number (blank \u2014 must be provided)",
+            "Patient Date of Birth (not included in submission)",
+            "Letter of Medical Necessity (LMN) \u2014 formal physician-authored document required",
+            "Documentation of injection therapy trial (corticosteroid or viscosupplementation) OR documented clinical contraindication to injections (e.g., active effusion, infection risk, prior failed injection)",
+            "Explicit clinical justification for allograft tendon selection over autograft (e.g., patient activity level, graft site morbidity concerns, prior ipsilateral surgery, physician rationale)",
+            "Operative/surgical planning notes specifying why simultaneous multi-procedure approach is medically necessary vs. staged procedures",
+            "Clarification of PT duration \u2014 if only 8 weeks completed, documentation should address why 12-week threshold was not met or why further PT would be contraindicated or futile given acute-on-chronic meniscal tear",
+            "Functional outcome scores using validated instruments (e.g., KOOS, Lysholm, IKDC) to supplement VAS pain score and narrative functional limitations",
+            "Surgeon's credentials and facility accreditation documentation (required when NPI is absent)"
+          ],
+          "recommended_fixes": [
+            "Immediately obtain and resubmit the patient's Insurance Member ID, Group Number, and Insurance Plan name \u2014 the request cannot be adjudicated without these fields",
+            "Provide the treating surgeon's NPI number \u2014 verify it is active and enrolled with the payer before resubmission",
+            "Include the patient's date of birth on all submission forms to ensure accurate member identity matching",
+            "Have the treating orthopedic surgeon author a detailed Letter of Medical Necessity that addresses: (1) the acute-on-chronic nature of the combined pathology, (2) why simultaneous repair is superior to staged procedures, (3) the risk of delaying meniscal root repair given progressive cartilage loss risk, and (4) the patient's functional and occupational impact",
+            "Document injection therapy history explicitly \u2014 if injections were not attempted, include a physician statement explaining the clinical contraindication (e.g., presence of acute effusion, mechanical locking symptoms, or documented prior injection failure elsewhere)",
+            "Add a written justification for allograft tendon use \u2014 include patient-specific factors such as age-related activity profile, graft harvest site concerns, or surgeon's clinical reasoning; reference peer-reviewed literature if available",
+            "Supplement the PT records with a formal failed conservative therapy statement from the treating physician, specifying dates of PT (start/end), number of sessions, modalities used, measurable outcomes, and the clinical basis for concluding PT has been exhausted",
+            "Include validated functional outcome scores (KOOS, Lysholm, or IKDC) alongside the VAS pain score to strengthen medical necessity documentation for all three procedures",
+            "Attach the full MRI report (dated 2024-05-05) with the radiologist's interpretation explicitly confirming: absent ACL, Grade III medial meniscus root tear, and Outerbridge Grade III/IV chondral defect with lesion size (1.5 cm) \u2014 ensure this is the formal signed report, not a clinical summary",
+            "If the payer requires 12 weeks of PT prior to surgical approval for chronic ACL deficiency, either document the additional PT weeks or have the physician provide a peer-reviewed clinical argument for why further PT is contraindicated given the new acute meniscal root tear and chondral defect"
+          ],
+          "summary": "This prior authorization request covers a complex, multi-procedure arthroscopic knee surgery (ACL reconstruction, meniscal root repair, and microfracture) with strong clinical imaging and PT documentation, but it is critically incomplete on administrative fields \u2014 the Member ID, Group Number, Insurance Plan, Provider NPI, and patient date of birth are all missing, making the request unprocessable in its current state. Beyond the administrative gaps, the absence of a Letter of Medical Necessity, no documented injection therapy trial or contraindication, and insufficient justification for allograft tendon selection represent substantive clinical documentation deficiencies that are likely to trigger denial even after the administrative fields are corrected. The provider should prioritize completing all administrative fields immediately, then work with the surgeon to produce a comprehensive LMN that addresses the multi-procedure rationale, allograft justification, failed conservative therapy, and functional impact before resubmitting."
+        },
+        "submitted_by": "Admin"
+      }
+    ]
+  },
+  "92746158300": {
+    "patient_name": "Jordan M. Ellis",
+    "member_id": "92746158300",
+    "submissions": [
+      {
+        "id": "PA-1778868784",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T14:13:04.055976",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy - CPT 29881",
+        "risk_score": 42,
+        "risk_level": "medium",
+        "result": {
+          "risk_score": 42,
+          "risk_level": "Medium",
+          "denial_reasons": [
+            "Conservative treatment trial may be insufficiently documented: UHC Maryland Medicaid Managed Care typically requires evidence of failed conservative therapy (e.g., physical therapy for 6+ weeks, NSAIDs, activity modification) prior to approving knee arthroscopy with meniscectomy (CPT 29881).",
+            "Diagnosis code M23.221 (Derangement of anterior horn of medial meniscus due to old tear or injury, right knee) must be clearly corroborated by imaging findings \u2014 an MRI confirming medial meniscal tear is generally required and may not have been explicitly submitted with this request.",
+            "Functional impairment documentation may be lacking: payer policy typically requires objective documentation of the patient's functional limitations (e.g., range of motion deficits, inability to perform ADLs/work duties) to establish medical necessity for surgical intervention.",
+            "Maryland Medicaid Managed Care plans often require that the performing surgeon's credentials and the surgical facility be in-network and credentialed; no facility or assistant information was provided in this request."
+          ],
+          "missing_documentation": [
+            "MRI report of the right knee confirming medial meniscal tear consistent with diagnosis M23.221.",
+            "Conservative treatment history: documented records of physical therapy (duration, frequency, outcomes), NSAID or analgesic trials, and activity modification attempts \u2014 typically a minimum of 6 weeks required.",
+            "Operative/clinical notes from the ordering/treating orthopedic surgeon detailing physical exam findings (e.g., McMurray test, Thessaly test, joint line tenderness), symptom duration, and severity.",
+            "Functional status assessment documenting how the condition limits the patient's daily activities, ambulation, or occupational function.",
+            "Facility/ASC (Ambulatory Surgery Center) information and confirmation that the surgical site is an approved UHC Maryland Medicaid Managed Care facility.",
+            "Patient's height, weight, and relevant comorbidities that may affect surgical risk or medical necessity determination.",
+            "Any prior knee surgeries or relevant treatment history for the same knee that could affect medical necessity justification."
+          ],
+          "recommended_fixes": [
+            "Attach the full MRI report (with radiologist interpretation) of the right knee, explicitly noting the medial meniscal tear, its location (anterior horn), and severity \u2014 this directly supports diagnosis M23.221 and is typically a hard requirement for CPT 29881 approval.",
+            "Submit a detailed conservative treatment summary: include physical therapy attendance records, therapy notes showing lack of improvement, and a medication log showing failed NSAID or analgesic therapy over at least 6 weeks.",
+            "Include a signed Letter of Medical Necessity (LMN) from the treating orthopedic surgeon that clearly articulates: (1) the clinical diagnosis supported by exam and imaging, (2) why conservative management has failed or is contraindicated, and (3) how surgery is expected to restore function.",
+            "Document objective functional impairment using standardized tools if available (e.g., KOOS \u2014 Knee Injury and Osteoarthritis Outcome Score, or VAS pain scale) to strengthen the medical necessity argument.",
+            "Confirm and include the surgical facility's NPI and verify it is an approved UHC Maryland Medicaid Managed Care facility to avoid administrative denial.",
+            "Ensure the diagnosis code M23.221 is listed as the primary diagnosis on all submitted documentation and that it precisely matches the laterality and anatomical location described in the MRI and clinical notes."
+          ],
+          "summary": "This prior authorization request for CPT 29881 (knee arthroscopy with meniscectomy) under UHC Maryland Medicaid Managed Care carries a medium denial risk (42/100), primarily due to likely gaps in conservative treatment documentation and the absence of explicitly submitted MRI findings to support diagnosis M23.221. The payer will almost certainly require evidence of failed non-surgical management (minimum 6 weeks of physical therapy and medication trials) before approving a surgical intervention. The provider should strengthen this submission by attaching the MRI report, a detailed conservative treatment history, and a robust Letter of Medical Necessity from the treating orthopedic surgeon before resubmitting."
+        }
+      },
+      {
+        "id": "PA-1778872914",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T15:21:54.007915",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy - CPT 29881",
+        "risk_score": 12,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 12,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "Minor: Physical therapy documentation reflects 8 supervised visits \u2014 some UHC Maryland Medicaid Managed Care policies require explicit documentation of 6\u201312 weeks of formal PT with a documented plateau or failure note; the plateau is noted but the visit count (8 sessions over ~6 weeks) may fall slightly short of stricter interpretations requiring a full 6-week formal PT course with weekly frequency.",
+            "Minor: Corticosteroid injection provided only partial temporary relief (~1 week) \u2014 payer may scrutinize whether a single injection constitutes sufficient exhaustion of injection therapy; however, clinical notes document failure with objective functional scores supporting progression to surgical intervention.",
+            "Minor: MRI (04/22/2026) was performed approximately 6 weeks prior to the surgery request date \u2014 this is within acceptable recency windows for most payers, but some UHC Medicaid plans require imaging within 90 days of authorization request; this is currently compliant but should be confirmed against the specific plan's imaging recency requirement."
+          ],
+          "missing_documentation": [
+            "No gaps identified in core required documentation \u2014 LMN, MRI report, PT records, injection therapy record, functional scores, conservative treatment failure summary, PCP referral, and physician treatment plan are all confirmed present.",
+            "Optional but recommended: Explicit PT discharge summary or formal plateau/failure letter from Dana Lewis PT, DPT (separate from the treating physician's summary) to preemptively address any payer request for independent therapist attestation of conservative failure.",
+            "Optional but recommended: Documentation confirming the patient's occupational impact (maintenance supervisor duties) is tied to the functional score narrative in a single consolidated clinical summary \u2014 while present across multiple documents, a unified medical necessity statement referencing both the objective scores and the occupational impairment together strengthens the record."
+          ],
+          "recommended_fixes": [
+            "Obtain and attach a formal PT discharge or plateau letter signed by Dana Lewis PT, DPT explicitly stating that the patient reached a functional plateau after 8 supervised sessions and that further PT is unlikely to restore function \u2014 this directly satisfies UHC's requirement for documented conservative treatment failure from the treating therapist.",
+            "Add a brief addendum to Dr. Bennett's Letter of Medical Necessity (already present, dated 05/14/2026) explicitly stating that a single corticosteroid injection was trialed, failed to provide durable relief beyond 1 week, and that repeat injection was not pursued due to the mechanical nature of the tear (catching, locking) which is not expected to respond to additional injections \u2014 this addresses any payer concern about exhaustion of injection therapy.",
+            "Confirm with UHC Maryland Medicaid Managed Care's prior authorization team or portal that the plan's imaging recency requirement is satisfied by the 04/22/2026 MRI \u2014 if the plan requires imaging within 60 days of the auth request, a clinical note referencing the MRI findings and confirming no interval change in symptoms will suffice in lieu of repeat imaging.",
+            "Ensure the authorization submission package explicitly cross-references CPT 29881 against diagnosis code M23.221 on the cover sheet or fax cover \u2014 UHC Medicaid reviewers are more likely to fast-track approval when the CPT-to-ICD-10 mapping is immediately visible without requiring a chart review.",
+            "Verify that Harborview Ambulatory Surgery Center (Facility NPI 1760584921) is listed as an in-network facility under the patient's specific UHC Community Plan \u2014 Maryland Medicaid Managed Care contract, and attach proof of in-network status or a facility authorization confirmation number if available, to prevent a facility-level denial separate from the clinical authorization."
+          ],
+          "summary": "This is a well-documented prior authorization request with a very low denial risk. Jordan Ellis presents with a confirmed complex medial meniscus tear (MRI-verified), objective functional impairment (KOOS-ADL 52, Lysholm 54, VAS 6.5/10), and documented failure of 14+ weeks of comprehensive conservative management including PT, NSAIDs, corticosteroid injection, and bracing \u2014 all of which align strongly with UHC Maryland Medicaid Managed Care's medical necessity criteria for CPT 29881. The primary recommended action before submission is to obtain a formal plateau/failure letter from the treating physical therapist (Dana Lewis PT, DPT) to independently corroborate conservative treatment failure, and to add a brief addendum to the LMN clarifying why repeat injection was not pursued given the mechanical nature of the tear. With these additions, this request presents as highly approvable."
+        }
+      },
+      {
+        "id": "PA-1778873389",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T15:29:49.242665",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy - CPT 29881",
+        "risk_score": 22,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 22,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "Corticosteroid/injection therapy not attempted: UnitedHealthcare Community Plan Maryland Medicaid policies for knee arthroscopy frequently require documented trial of intra-articular corticosteroid injection as part of conservative management before surgical authorization. The absence of injection therapy may be flagged as an incomplete conservative care trial.",
+            "Physical therapy visit count may fall short of payer threshold: Only 8 supervised PT visits over approximately 6 weeks of active treatment are documented. Some UHC Medicaid Managed Care policies require 6\u201312 weeks of formal supervised PT (often interpreted as 12 or more visits) before surgical intervention is approved.",
+            "Mild medial compartment chondral thinning noted on MRI: The presence of early chondral changes (mild medial compartment chondral thinning) may prompt payer scrutiny regarding whether arthroscopy is appropriate in the context of early degenerative joint disease, as some policies restrict coverage when osteoarthritic changes are present alongside meniscal pathology.",
+            "Mild medial compartment joint space narrowing on X-ray: This finding, combined with the chondral thinning on MRI, could lead the payer to classify this as degenerative meniscal tear in the setting of early OA, which carries higher denial risk under certain Medicaid managed care arthroscopy policies."
+          ],
+          "missing_documentation": [
+            "Explicit documentation of why corticosteroid injection therapy was not pursued (e.g., contraindication, patient refusal, clinical rationale) \u2014 required to justify bypassing this commonly expected conservative care step.",
+            "Formal PT discharge summary or progress notes from Dana Lewis, PT, DPT documenting specific functional outcomes, objective measurements at discharge, and clinical rationale for treatment failure \u2014 individual visit notes or a structured summary are preferred over a general reference.",
+            "Attending surgeon's (Dr. Alicia Bennett) operative plan narrative explicitly addressing the MRI findings (complex posterior horn/body tear with extrusion) and explaining why the mechanical symptoms are attributable to the meniscal tear rather than early degenerative disease.",
+            "Clarification or attestation in the Letter of Medical Necessity distinguishing this as a traumatic/mechanical meniscal tear (twisting injury 02/08/2026) rather than a degenerative tear, to preemptively address payer concern about early OA findings.",
+            "Facility prior authorization or facility NPI confirmation for Harborview Ambulatory Surgery Center (NPI 1760584921) \u2014 confirm whether a separate facility PA is required under this UHC Maryland Medicaid plan.",
+            "Documentation of activity modification specifics and work restriction records from the employer or treating physician supporting functional impairment in occupational duties (maintenance supervisor role)."
+          ],
+          "recommended_fixes": [
+            "Add a clinical addendum to the Letter of Medical Necessity explicitly stating the contraindication or clinical rationale for omitting intra-articular corticosteroid injection (e.g., 'Injection therapy was deferred due to the mechanical nature of the tear, presence of joint effusion with active inflammation, and the patient's occupational demands requiring urgent return to function'). If no contraindication exists, strongly consider administering and documenting a corticosteroid injection trial before resubmission.",
+            "Obtain and attach the complete PT progress notes and discharge summary from Dana Lewis, PT, DPT (Harborview Physical Therapy, 03/05/2026\u201304/18/2026), including objective functional measures at intake and discharge, specific exercises attempted, and a formal statement of treatment failure and recommendation for surgical evaluation.",
+            "Request that Dr. Alicia Bennett augment the Letter of Medical Necessity to explicitly characterize this as a traumatic meniscal tear (mechanism: twisting injury 02/08/2026), distinguish it from degenerative pathology, and directly address the mild chondral and X-ray findings by explaining they do not represent advanced OA and are not the primary source of mechanical symptoms.",
+            "Include the validated functional outcome scores (KOOS-ADL 52/100, Lysholm 54/100) directly within the Letter of Medical Necessity body \u2014 not just in supporting documents \u2014 so the reviewer cannot overlook them during clinical review.",
+            "Attach work restriction documentation or a letter from Dr. Bennett outlining specific occupational limitations (inability to kneel, squat, climb stairs, walk distances) tied to the patient's job duties as a maintenance supervisor, reinforcing medical necessity based on functional impairment.",
+            "Confirm with UnitedHealthcare Community Plan Maryland whether a separate facility authorization is required for Harborview Ambulatory Surgery Center (NPI 1760584921) and, if so, submit that concurrently to avoid scheduling delays.",
+            "If resubmission is needed after a denial, prepare a peer-to-peer review request citing the MRI-confirmed complex posterior horn/body medial meniscal tear with extrusion, positive McMurray test, quantified functional scores, and occupational impairment \u2014 this is a strong clinical case that should prevail on peer-to-peer if initially denied."
+          ],
+          "summary": "This is a clinically well-documented prior authorization request for right knee arthroscopy (CPT 29881) with strong supporting evidence: MRI-confirmed complex medial meniscal tear, positive clinical examination, validated functional scores indicating poor knee function (KOOS-ADL 52, Lysholm 54), and a 12-week failed conservative care trial. The primary vulnerability is the absence of intra-articular injection therapy, which UHC Medicaid Managed Care plans often list as a required conservative care step, and the presence of mild degenerative findings (chondral thinning, joint space narrowing) that could prompt the payer to classify this as a degenerative rather than traumatic tear. To minimize denial risk, the provider should add a clear clinical justification for omitting injection therapy, attach complete PT progress notes with objective outcome measures, and ensure the Letter of Medical Necessity explicitly characterizes this as a traumatic mechanical tear distinct from degenerative joint disease."
+        },
+        "submitted_by": "Admin"
+      },
+      {
+        "id": "PA-1778874344",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T15:45:44.199771",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy - CPT 29881",
+        "risk_score": 12,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 12,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "No definitive denial triggers identified; minor documentation completeness items noted for precautionary review only.",
+            "Corticosteroid injection documented as 'partial temporary relief with no improvement in mechanical symptoms' \u2014 payer may scrutinize whether this constitutes a full failed conservative trial; however, mechanical symptoms (locking, catching) are generally accepted as a contraindication to continued conservative management and may justify surgical escalation independent of injection outcome.",
+            "8 supervised PT visits (03/05/2026\u201304/18/2026) falls at the lower boundary of what some UHC Maryland Medicaid Managed Care policies require (typically 6\u201312 visits minimum); the documented plateau and mechanical symptom persistence mitigate this risk substantially."
+          ],
+          "missing_documentation": [
+            "NONE \u2014 all 14 attachment items confirmed present per Section 18 checklist. The following are flagged as precautionary verification items only:",
+            "[PRECAUTIONARY] PT discharge or plateau summary from Dana Lewis, PT, DPT should explicitly state that further PT is unlikely to resolve mechanical symptoms (locking/catching) \u2014 this language directly rebuts any 'insufficient conservative trial' challenge.",
+            "[PRECAUTIONARY] Confirm MRI report (04/22/2026, Harborview Imaging Center, Dr. Michael R. Shah) is attached as a separate labeled exhibit and not embedded only within the LMN narrative \u2014 some UHC Medicaid reviewers require a standalone radiology report.",
+            "[PRECAUTIONARY] Corticosteroid injection documentation (04/05/2026) should include the injecting provider's name, credential, and a follow-up note from 05/03/2026 explicitly stating failure of mechanical symptoms \u2014 confirm this is a discrete attachment and not referenced only in the LMN.",
+            "[PRECAUTIONARY] Confirm PCP referral from Samuel Ortiz, MD (NPI 1841293765, dated 05/01/2026) is on letterhead and includes the specific CPT 29881 or at minimum references right knee surgical evaluation \u2014 generic referrals are occasionally challenged under Maryland Medicaid Managed Care coordination-of-care requirements."
+          ],
+          "recommended_fixes": [
+            "Request that Dana Lewis, PT, DPT provide a supplemental one-paragraph attestation explicitly stating: (1) patient reached functional plateau after 8 visits, (2) mechanical symptoms (locking, catching) are not amenable to further PT intervention, and (3) continued conservative management is not expected to restore functional capacity. Attach as a discrete labeled exhibit.",
+            "Ensure the MRI radiology report from Dr. Michael R. Shah is submitted as a standalone labeled PDF (e.g., 'Exhibit C \u2014 MRI Right Knee 04/22/2026') and cross-referenced in the authorization cover letter. Do not rely solely on the LMN's narrative summary of MRI findings.",
+            "In the authorization cover letter or clinical summary, explicitly cite the mechanical symptom triad (catching, locking, swelling) as documented on clinical exam (05/03/2026) and note that UHC and AAOS guidelines recognize mechanical symptoms from confirmed meniscal tear as an independent indication for surgical intervention, even when conservative care has not been exhausted for the maximum duration.",
+            "Verify that the corticosteroid injection record includes a discrete 05/03/2026 follow-up note with explicit language such as 'no improvement in mechanical symptoms, patient failed corticosteroid injection therapy' \u2014 this closes any ambiguity around the definition of 'failed injection' under payer review.",
+            "Confirm the PCP referral from Dr. Ortiz references CPT 29881 or 'right knee arthroscopy/meniscectomy' specifically. If the referral is generic, request an updated referral with procedure-specific language prior to submission.",
+            "Include a brief one-paragraph functional impact statement in the cover letter tying the KOOS-ADL (52/100), Lysholm (54/100), and VAS (6.5/10) scores directly to the patient's occupational impairment as a maintenance supervisor \u2014 this contextualizes medical necessity beyond clinical findings and supports urgency.",
+            "Retain all 14 checklist attachments in a sequentially numbered, labeled PDF bundle with a cover index page. UHC Maryland Medicaid Managed Care reviewers process high volumes; a clear index reduces the risk of a 'missing documentation' administrative denial unrelated to clinical merit."
+          ],
+          "summary": "This prior authorization request for CPT 29881 (Right Knee Arthroscopy with Partial Medial Meniscectomy) for Jordan M. Ellis presents a clinically strong and well-documented case with low denial risk. The submission includes MRI-confirmed complex posterior horn medial meniscus tear, failed conservative management across 14+ weeks (PT, NSAIDs, corticosteroid injection, bracing, activity modification), objective functional impairment scores, positive clinical exam findings including mechanical symptoms, a signed Letter of Medical Necessity, and a complete 14-item attachment checklist. The primary risk mitigation action is to ensure the PT plateau attestation explicitly addresses mechanical symptoms as non-amenable to further conservative care, and that the MRI report and injection failure documentation are submitted as discrete, clearly labeled exhibits rather than embedded only in the LMN narrative. With these minor precautionary enhancements in place, this request meets UHC Maryland Medicaid Managed Care medical necessity criteria for knee arthroscopy and is well-positioned for approval."
+        },
+        "submitted_by": "Admin"
+      },
+      {
+        "id": "PA-1778874702",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T15:51:42.658859",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy - CPT 29881",
+        "risk_score": 22,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 22,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "No corticosteroid or intra-articular injection therapy documented prior to surgical request \u2014 some UHC Maryland Medicaid Managed Care policies require at least one corticosteroid injection trial before approving knee arthroscopy unless contraindicated, and no contraindication to injection is explicitly documented.",
+            "Physical therapy course may be considered borderline insufficient: 8 visits over approximately 6 weeks documented, whereas some payer policies require 6\u201312 weeks of formal supervised PT with a minimum visit threshold (often 8\u201312 visits) before surgical authorization \u2014 the visit count meets the lower bound but the duration of formal PT (~6 weeks) may fall short of a strict 6-week minimum interpretation.",
+            "Mild medial compartment joint space narrowing noted on X-ray (03/01/2026) \u2014 payers may scrutinize arthroscopic meniscectomy in the presence of any degenerative joint changes, as evidence for benefit is reduced in osteoarthritic knees; no explicit documentation addressing why surgery remains appropriate despite this finding."
+          ],
+          "missing_documentation": [
+            "Explicit documentation of contraindication to corticosteroid/intra-articular injection therapy, OR a documented clinical rationale for why injection therapy was not pursued \u2014 absence of this creates a gap relative to standard step-therapy requirements.",
+            "Formal attestation or clinical note language addressing the degree of joint space narrowing and confirming the tear is the primary pain generator rather than underlying degenerative arthritis (Kellgren-Lawrence grade assessment or explicit radiographic interpretation noting minimal/no clinically significant OA would strengthen this).",
+            "Operative/surgical plan note explicitly documenting patient's fitness for anesthesia and surgical risk clearance, particularly given hypertension (anesthesia clearance or pre-op H&P not referenced in extracted documents).",
+            "Documented shared decision-making discussion with patient regarding surgical vs. continued conservative options \u2014 some Maryland Medicaid Managed Care plans require evidence this conversation occurred.",
+            "PT discharge summary or formal progress notes from Dana Lewis, PT, DPT explicitly documenting plateau/failure language and objective outcome measures at each key interval (not just final scores) \u2014 functional score summary is present but interval PT progress notes are not confirmed as attached."
+          ],
+          "recommended_fixes": [
+            "Add a brief clinical note or addendum from Dr. Alicia Bennett explicitly stating why corticosteroid injection was not performed or recommended (e.g., patient preference, clinical contraindication, or judgment that injection would not address the mechanical tear). If no true contraindication exists, consider whether a single injection trial can be completed and documented prior to submission, or justify its omission with peer-reviewed clinical rationale.",
+            "Include a specific paragraph in the Letter of Medical Necessity addressing the mild medial compartment joint space narrowing: confirm Kellgren-Lawrence grade (ideally Grade I or II), state that the patient's symptoms are consistent with a mechanical meniscal tear rather than primary osteoarthritis, and cite relevant clinical literature supporting meniscectomy benefit in this context.",
+            "Attach the complete PT progress notes from all 8 visits (03/05/2026\u201304/18/2026) including objective measurements at each visit, not just final functional scores \u2014 this documents the treatment plateau and supports medical necessity more robustly.",
+            "Obtain and attach a pre-operative H&P or anesthesia clearance note confirming the patient is a surgical candidate, with blood pressure management noted as stable on lisinopril.",
+            "Include a brief shared decision-making note in the chart (or within the LMN) confirming that surgical risks, benefits, and alternatives were discussed with Jordan Ellis and that the patient consents to and elects surgical intervention after understanding non-surgical options.",
+            "Confirm that all attachments (LMN dated 05/14/2026, PCP referral dated 05/01/2026, MRI report dated 04/22/2026, X-ray report dated 03/01/2026, PT records, and orthopedic exam note dated 05/03/2026) are explicitly listed in a cover document or fax checklist to prevent any document from being overlooked during payer review."
+          ],
+          "summary": "This prior authorization request for right knee arthroscopy with partial medial meniscectomy (CPT 29881) for Jordan Ellis is generally well-supported: MRI confirms a complex medial meniscus tear consistent with M23.221, conservative treatment over 14+ weeks is documented with objective functional decline, clinical examination findings are consistent, and a signed LMN from the treating orthopedic surgeon is present. The primary vulnerability is the absence of any corticosteroid or injection therapy trial, which UHC Maryland Medicaid Managed Care may flag as an incomplete step-therapy pathway \u2014 the provider should either document a clinical rationale for skipping this step or complete a brief injection trial before resubmission. Secondary risks include the mild degenerative joint changes on X-ray and a PT course that, while documented, would benefit from complete interval progress notes to fully demonstrate treatment failure and plateau."
+        },
+        "submitted_by": "Admin"
+      },
+      {
+        "id": "PA-1778875969",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T16:12:49.720456",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy - CPT 29881",
+        "risk_score": 28,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 28,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "Injection therapy (corticosteroid or hyaluronic acid) not attempted or documented \u2014 UHC Community Plan Maryland typically requires at least one intra-articular injection trial prior to surgical authorization for meniscal pathology unless a clinical contraindication is explicitly documented.",
+            "Diagnosis code S83.241A is an initial encounter (suffix 'A') designator; given that the injury occurred on 02/08/2026 and the authorization is being requested in May/June 2026 (~16 weeks post-injury), a subsequent encounter code (S83.241D) or sequela code may be more appropriate and could trigger a coding review or technical denial.",
+            "Mild chondral thinning noted on MRI (medial compartment) without explicit documentation of whether the degree of chondromalacia affects surgical candidacy or plan \u2014 payer may request clarification on how chondral findings were factored into the treatment decision.",
+            "Physical therapy course (8 sessions over approximately 6 weeks) may be considered borderline in duration by some UHC reviewers who expect 6\u20138 weeks of consistent PT with documented functional outcome measures across multiple time points before approving elective arthroscopy."
+          ],
+          "missing_documentation": [
+            "Documentation of intra-articular injection therapy (corticosteroid or viscosupplementation) OR an explicit physician attestation of clinical contraindication to injection therapy (e.g., allergy, active infection, patient refusal with rationale, or clinical judgment that injection is not appropriate given tear morphology/locking episodes).",
+            "Clarification or amendment of diagnosis code \u2014 consider updating from S83.241A (initial encounter) to S83.241D (subsequent encounter) to accurately reflect the stage of care at time of authorization submission.",
+            "Standardized functional outcome scores documented at both initial PT evaluation AND at discharge/plateau \u2014 while VAS pain scores are noted, a validated knee-specific outcome tool (e.g., KOOS, Lysholm, or IKDC score) at two time points would strengthen the medical necessity argument.",
+            "Explicit physician narrative addressing the chondral thinning finding and confirming it does not contraindicate arthroscopy or alter the surgical plan (some UHC policies flag mild-to-moderate chondromalacia as a potential modifier to surgical benefit).",
+            "Facility NPI (1760584921 \u2014 Harborview Ambulatory Surgery Center) should be confirmed as an in-network participating facility under UHC Community Plan Maryland; no facility credentialing confirmation was included in the submission.",
+            "Attestation or documentation that the patient was counseled on conservative alternatives including injection therapy and either declined with documented rationale, or that the treating physician documented why injection was not pursued prior to surgery."
+          ],
+          "recommended_fixes": [
+            "HIGHEST PRIORITY \u2014 Address the injection therapy gap: Either (a) schedule and document an intra-articular corticosteroid injection with a follow-up note showing inadequate response before the 06/10/2026 surgery date, or (b) have Dr. Bennett add a signed addendum to the treatment plan explicitly stating the clinical reason injection therapy was not performed (e.g., 'Given the presence of mechanical locking episodes and complex posterior horn tear morphology, intra-articular injection is unlikely to provide durable relief and may delay necessary surgical intervention; injection therapy is not indicated in this clinical scenario'). This is the single highest-risk gap in this submission.",
+            "Correct the diagnosis code from S83.241A to S83.241D on all resubmission documents to reflect that this is a subsequent encounter for an injury that occurred over 16 weeks ago. Verify with your billing team that all claim and PA forms are updated consistently.",
+            "Add a brief physician addendum (1\u20132 paragraphs) addressing the MRI chondral findings: confirm the grade of chondromalacia, state that it was considered in surgical planning, and affirm that arthroscopy with partial meniscectomy remains the appropriate intervention. This proactively closes a potential reviewer question.",
+            "Request that Dana Lewis, PT, DPT provide a final PT discharge/plateau summary that includes a validated functional outcome score (KOOS or Lysholm preferred) at both initial evaluation and at plateau, alongside the existing VAS scores. This documents objective functional decline despite conservative care.",
+            "Confirm in-network status of Harborview Ambulatory Surgery Center (Facility NPI 1760584921) with UHC Community Plan Maryland prior to submission. If out-of-network, obtain a gap exception or identify an in-network facility to avoid a site-of-service denial.",
+            "Ensure the Letter of Medical Necessity (LMN) from Dr. Bennett explicitly references UHC's medical necessity criteria language: 'conservative treatment failure,' 'functional impairment,' 'MRI-confirmed structural pathology,' and 'failure of at least [X] weeks of supervised PT' \u2014 mirroring payer policy language improves reviewer alignment and reduces the likelihood of a clinical denial."
+          ],
+          "summary": "This prior authorization request for right knee arthroscopy with partial medial meniscectomy (CPT 29881) for Jordan M. Ellis is generally well-supported, with MRI-confirmed complex meniscal tear, documented functional limitations, a positive physical exam, and a completed PT course \u2014 placing overall denial risk in the low-to-moderate range. The most significant gap is the absence of intra-articular injection therapy or a documented clinical contraindication to it, which is a common UHC Community Plan requirement before approving elective knee arthroscopy; this single issue should be addressed before submission. Secondary issues \u2014 including a likely incorrect encounter suffix on the diagnosis code (S83.241A vs. S83.241D), absence of a standardized knee outcome score, and no explicit documentation addressing the chondral thinning finding \u2014 are lower risk but should be corrected to minimize the chance of a technical or clinical denial."
+        },
+        "submitted_by": "Admin"
+      },
+      {
+        "id": "PA-1778876765",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T16:26:05.415159",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy - CPT 29881",
+        "risk_score": 18,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 18,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "Mild medial compartment chondral thinning noted on MRI \u2014 payer may scrutinize whether degenerative joint disease (rather than discrete meniscal tear) is the primary pain generator, potentially triggering a medical necessity challenge.",
+            "Physical therapy course consisted of only 8 supervised visits over approximately 6 weeks of active PT (03/05\u201304/18/2026) \u2014 some UHC Maryland Medicaid Managed Care policies require documentation of a more robust PT trial (typically 6\u20138 weeks of consistent supervised sessions) before approving arthroscopic intervention, and 8 visits may be borderline depending on reviewer interpretation.",
+            "Corticosteroid injection provided only ~1 week of partial relief \u2014 while documented as failed, a single injection trial may be considered insufficient by some reviewers who expect either a second injection attempt or a longer observation window post-injection before surgical escalation."
+          ],
+          "missing_documentation": [
+            "Explicit payer-specific conservative treatment duration threshold confirmation \u2014 the submission should clearly state that the total conservative management period spans 14+ weeks (02/08/2026 onset through 05/14/2026 LMN date) in a single consolidated timeline narrative, as this is not always self-evident across multiple documents.",
+            "PT discharge/plateau note explicitly recommending surgical intervention \u2014 while PT records are noted as present, the submission should confirm that Dana Lewis, PT DPT's discharge summary contains a formal written statement that the patient has plateaued and that continued PT is not expected to provide further benefit.",
+            "Facility (ASC) authorization confirmation \u2014 Harborview Ambulatory Surgery Center's in-network status and any required facility-level prior authorization (separate from the procedure PA) should be explicitly documented, as some Maryland Medicaid Managed Care plans require dual authorization for both the procedure and the outpatient surgical facility.",
+            "Anesthesia/surgical team NPI(s) \u2014 if UHC Maryland Medicaid requires co-surgeon or anesthesiologist NPIs on the PA request form, these are not referenced in the submission summary.",
+            "Patient functional status baseline at injury onset (02/08/2026) vs. current \u2014 while current functional scores are well-documented (KOOS-ADL 52, Lysholm 54, VAS 6.5), a brief notation of pre-injury baseline or the trajectory of decline strengthens the medical necessity narrative and is sometimes requested by reviewers."
+          ],
+          "recommended_fixes": [
+            "Add a consolidated chronological conservative treatment summary as a single cover-page timeline (02/08/2026 injury \u2192 03/01/2026 X-ray \u2192 03/05\u201304/18/2026 PT \u00d7 8 visits \u2192 04/05/2026 injection \u2192 04/22/2026 MRI \u2192 05/03/2026 follow-up confirming failure \u2192 05/14/2026 LMN) to make the 14-week failed conservative management period immediately clear to any reviewer without requiring cross-referencing of multiple attachments.",
+            "Obtain and attach Dana Lewis, PT DPT's formal discharge summary explicitly stating: (1) patient has reached a functional plateau, (2) mechanical symptoms (catching, locking, swelling) are not responsive to conservative PT, and (3) PT recommends surgical evaluation \u2014 this directly neutralizes any 'insufficient PT trial' denial argument.",
+            "Strengthen the Letter of Medical Necessity (Dr. Bennett, 05/14/2026) to explicitly address the chondral thinning finding by clarifying that the primary pain generator and functional limitation is the complex meniscal tear (confirmed by positive McMurray, positive Thessaly, MRI correlation) and that the mild chondral changes are incidental/early-stage and do not alter the surgical indication or expected outcome.",
+            "Include a brief statement in the LMN or a separate addendum explaining why a second corticosteroid injection was not pursued \u2014 for example, that mechanical symptoms (catching, locking) are structural in nature and not expected to respond to repeat injection, and that the single failed injection is consistent with clinical guidelines for mechanical meniscal pathology.",
+            "Confirm and document Harborview Ambulatory Surgery Center's in-network status with UHC Maryland Medicaid Community Plan in writing (e.g., attach a network verification printout or reference the ASC's Medicaid provider ID), and verify whether a separate facility PA is required \u2014 if so, initiate it concurrently to avoid scheduling delays.",
+            "Verify with UHC Maryland Medicaid whether the PCP referral from Dr. Samuel Ortiz (NPI 1841293765, dated 05/01/2026) satisfies the plan's referral/gatekeeper requirements for specialist surgical procedures, and confirm the referral explicitly covers the surgical procedure (CPT 29881) and not just the orthopedic consultation."
+          ],
+          "summary": "This is a well-documented prior authorization request for right knee arthroscopy (CPT 29881) with strong clinical support: MRI-confirmed complex medial meniscal tear, 14+ weeks of failed conservative management including PT and injection therapy, objective functional impairment scores, positive provocative examination findings, and a signed Letter of Medical Necessity. The primary risks are relatively minor \u2014 a borderline PT visit count (8 visits), a single injection trial, and incidental chondral thinning that could prompt reviewer questions \u2014 none of which represent substantive clinical gaps given the overall documentation quality. The provider should consolidate the conservative treatment timeline into a single clear narrative, ensure the PT discharge note explicitly recommends surgery, and add a brief clinical rationale in the LMN addressing why the chondral finding and single injection do not preclude surgical intervention \u2014 these steps should reduce denial risk to minimal and support a first-pass approval."
+        },
+        "submitted_by": "Admin"
+      },
+      {
+        "id": "PA-1778877353",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T16:35:53.630828",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy - CPT 29881",
+        "risk_score": 12,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 12,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "Mild medial compartment chondral thinning noted on MRI \u2014 payer may flag early articular cartilage involvement as a complicating factor requiring clarification that arthroscopy is not being requested primarily for chondral pathology, which is often non-covered or separately scrutinized under Maryland Medicaid Managed Care policy.",
+            "Only 8 supervised physical therapy visits documented \u2014 some UHC Community Plan Maryland Medicaid policies require a minimum of 6\u201312 weeks of formal supervised PT with documented visit frequency; while the 14-week conservative care window is met, the relatively low visit count (8 sessions) may prompt a medical reviewer to question PT intensity and compliance.",
+            "Corticosteroid injection documented as providing only ~1 week of partial relief \u2014 while injection failure is documented and supports surgical necessity, the short duration of relief and single injection trial may be scrutinized; some payers prefer documentation of 2 injection attempts or a longer post-injection observation window before approving surgery."
+          ],
+          "missing_documentation": [
+            "Explicit payer-specific conservative care attestation letter: While the LMN is present, a separate attestation explicitly mapping each conservative care modality to the payer's required minimum thresholds (activity modification duration, PT visit count, injection trial count) in payer-preferred format is not confirmed \u2014 this is distinct from the clinical LMN.",
+            "Physical therapy discharge summary or final progress note from Dana Lewis, PT, DPT: The extraction references 8 PT visits and a plateau assessment, but a formal PT discharge summary explicitly recommending surgical referral and confirming maximum conservative benefit has been reached should be attached as a standalone document if not already clearly labeled as such in the 14-document package.",
+            "Radiologist interpretation report for the 03/01/2026 right knee X-ray: The MRI report from Harborview Imaging is referenced with an interpreting radiologist (Dr. Michael R. Shah), but the X-ray interpretation is not explicitly confirmed as a signed radiology report \u2014 payers typically require the formal report, not just a clinical reference to findings.",
+            "Facility (ASC) prior authorization confirmation or in-network verification documentation: Harborview Ambulatory Surgery Center (Facility NPI 1760584921) is stated as in-network, but no facility-level authorization number or in-network confirmation letter is referenced in the document package \u2014 some Maryland Medicaid Managed Care plans require separate facility PA or a combined provider-facility authorization request.",
+            "Anesthesia or surgical risk clearance note (if applicable): For a 44-year-old male undergoing outpatient surgery, some payers require documentation that the patient has been medically cleared for outpatient general or regional anesthesia, particularly if any comorbidities exist \u2014 the extraction does not reference comorbidity status or pre-op clearance."
+          ],
+          "recommended_fixes": [
+            "Add a payer-formatted conservative care summary table: Create a structured one-page document that maps each conservative treatment modality (activity modification, NSAIDs, acetaminophen, bracing, home exercise, supervised PT, corticosteroid injection) to its specific start date, end date, duration, and outcome \u2014 explicitly referencing UHC Community Plan Maryland's required thresholds. This removes any ambiguity for the medical reviewer and reduces the chance of a 'conservative care not sufficiently documented' denial.",
+            "Attach the formal PT discharge summary as a clearly labeled standalone document: Ensure Dana Lewis, PT, DPT's final progress note or discharge summary is submitted as its own labeled attachment (e.g., 'PT Discharge Summary \u2014 Harborview Physical Therapy \u2014 04/18/2026') explicitly stating that the patient reached a functional plateau and that continued PT is unlikely to yield further benefit, and that surgical evaluation is recommended.",
+            "Attach the signed radiology report for the 03/01/2026 right knee X-ray: Confirm that the formal, signed radiology interpretation report (not just clinical notes referencing X-ray findings) is included in the submission package. If Dr. Shah or another radiologist interpreted the X-ray, that report should be a separate labeled attachment.",
+            "Include a brief addendum in the LMN addressing the chondral thinning finding: Dr. Bennett should add one paragraph to the Letter of Medical Necessity explicitly clarifying that the chondral thinning is mild and incidental, that the primary surgical target is the complex posterior horn medial meniscus tear, and that addressing the meniscal pathology is expected to reduce further chondral stress \u2014 preemptively neutralizing any payer concern that the procedure is being used to treat non-covered cartilage pathology.",
+            "Confirm facility authorization status with UHC Community Plan Maryland prior to submission: Contact UHC Community Plan Maryland's provider services line to verify whether Harborview Ambulatory Surgery Center requires a separate facility-level PA for CPT 29881, and if so, initiate that request concurrently. Document the confirmation call (date, representative name, reference number) and include it in the submission.",
+            "Consider documenting whether a second corticosteroid injection was discussed and declined or deemed inappropriate: If Dr. Bennett clinically determined that a second injection was not indicated (e.g., due to the mechanical nature of symptoms \u2014 catching and locking \u2014 which are not expected to respond to additional injections), include a one-sentence clinical rationale in the LMN. This proactively addresses any payer query about single-injection trial sufficiency."
+          ],
+          "summary": "This prior authorization request for CPT 29881 (Right Knee Arthroscopy with Partial Medial Meniscectomy) for Jordan M. Ellis is well-supported overall, with a confirmed MRI diagnosis, 14+ weeks of documented failed conservative care including PT and corticosteroid injection, objective functional scoring, a signed Letter of Medical Necessity, and a valid PCP referral \u2014 resulting in a low denial risk score of 12/100. The primary vulnerabilities are documentation completeness gaps: the PT discharge summary, the formal X-ray radiology report, and a payer-formatted conservative care summary should be confirmed as clearly labeled standalone attachments, and the LMN should include a brief addendum addressing the incidental chondral thinning to prevent it from being misconstrued as the primary surgical indication. Submitting these targeted additions before the June 10, 2026 requested procedure date will significantly strengthen the request and minimize the likelihood of a request for additional information (RFAI) or denial."
+        },
+        "submitted_by": "Admin"
+      },
+      {
+        "id": "PA-1778917921",
+        "date": "May 16, 2026",
+        "timestamp": "2026-05-16T03:52:01.935758",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy (CPT 29881)",
+        "risk_score": 18,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 18,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "Minor risk: Physical therapy documentation shows only 8 supervised visits \u2014 some UHC Maryland Medicaid Managed Care policies require explicit confirmation that PT has reached a documented functional plateau, not merely a visit count threshold. The plateau notation is present but should be reinforced with objective outcome measure comparisons across PT sessions.",
+            "Minor risk: Corticosteroid injection was landmark-guided rather than image-guided \u2014 some payer policies prefer or require ultrasound or fluoroscopic guidance documentation; while this is unlikely to trigger denial, the technique should be explicitly noted as clinically appropriate given the joint anatomy.",
+            "Low risk: MRI was performed on 04/22/2026, approximately 6 weeks prior to the Letter of Medical Necessity (05/14/2026) and 7 weeks prior to planned surgery (06/10/2026) \u2014 this is within acceptable windows, but the authorization reviewer should confirm the plan's imaging recency requirement (typically 6\u201312 months)."
+          ],
+          "missing_documentation": [
+            "PT session-by-session objective outcome data: While a plateau is noted, submission should include individual session progress notes or a summary table showing functional scores (e.g., KOOS, Lysholm, or pain VAS) at intake, mid-point, and discharge to substantiate the plateau claim across the 8-visit course.",
+            "Explicit failed conservative care timeline summary document: Although all elements are present in the clinical narrative, UHC Maryland Medicaid Managed Care often requires a structured, provider-signed conservative care summary or checklist that maps each modality to dates and outcomes \u2014 confirm this is included as a standalone attachment rather than embedded only in office notes.",
+            "Operative/surgical plan or pre-operative assessment: No mention of an anesthesia clearance, pre-op H&P, or surgical plan document is noted in the extraction summary. While not always required at PA submission, some Maryland Medicaid Managed Care plans require a brief operative plan or surgical indication statement separate from the LMN.",
+            "Confirmation of in-network status for Harborview Ambulatory Surgery Center: The facility is noted as in-network, but no credentialing or network verification document is referenced in the submission packet. For Medicaid Managed Care, facility network status should be explicitly confirmed in writing or via an attached network directory reference."
+          ],
+          "recommended_fixes": [
+            "Attach a PT progress note summary table showing objective functional scores (KOOS-ADL, Lysholm, VAS, or equivalent) at PT intake (03/05/2026), mid-treatment, and final visit (04/18/2026), with Dana Lewis PT DPT's co-signature confirming plateau determination \u2014 this directly addresses any challenge to the adequacy of conservative care.",
+            "Include a one-page structured conservative treatment summary, signed by Dr. Alicia Bennett, that explicitly lists each failed modality with start date, end date, dosage or frequency, and outcome \u2014 this should be a standalone document, not solely embedded in office notes, to facilitate rapid reviewer assessment.",
+            "Add a brief surgical plan or operative indication statement from Dr. Bennett (or a pre-operative H&P if completed) that clearly links the MRI findings, clinical exam results, and functional score deficits to the specific planned procedure (CPT 29881, right knee, partial medial meniscectomy of posterior horn), reinforcing medical necessity at the procedure-specific level.",
+            "Include written confirmation of Harborview Ambulatory Surgery Center's in-network status under the UHC Maryland Medicaid Managed Care plan (e.g., a network verification letter, facility contract reference, or UHC provider directory printout) to preempt any facility-level coverage dispute.",
+            "In the injection therapy documentation, explicitly state that landmark-guided intra-articular injection was the clinically appropriate technique for this patient and joint, and note that image guidance was not required given the accessible nature of the knee joint \u2014 this proactively addresses any policy language favoring guided injection documentation.",
+            "Confirm that the PCP referral from Dr. Samuel Ortiz (NPI 1841293765) dated 05/01/2026 is specifically for orthopedic surgical evaluation and is valid through the planned procedure date of 06/10/2026, as Maryland Medicaid Managed Care referrals may have 30\u201390 day validity windows."
+          ],
+          "summary": "This is a well-documented prior authorization request with strong medical necessity support: confirmed MRI diagnosis, failed 14+ weeks of multimodal conservative care including supervised PT with documented plateau and a failed corticosteroid injection, objective functional impairment scores well below normal thresholds, and a complete Letter of Medical Necessity. The overall denial risk is low (18/100). The primary recommendations are to supplement the submission with a session-by-session PT outcome summary to solidify the plateau claim, add a standalone structured conservative care summary document, and confirm facility network status in writing \u2014 these are precautionary steps to close the small gaps that could trigger an administrative or documentation-based delay rather than a clinical denial."
+        },
+        "submitted_by": "Admin"
+      },
+      {
+        "id": "PA-1778918706",
+        "date": "May 16, 2026",
+        "timestamp": "2026-05-16T04:05:06.921271",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy (CPT 29881)",
+        "risk_score": 18,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 18,
+          "risk_level": "Low",
+          "denial_reasons": [
+            "Mild medial compartment chondral thinning noted on MRI may prompt payer scrutiny regarding whether arthroscopic meniscectomy is appropriate in the presence of early degenerative joint disease, as some UHC Medicaid Managed Care policies restrict CPT 29881 when concurrent chondral pathology suggests osteoarthritis as the primary pain driver rather than isolated meniscal tear.",
+            "Supervised physical therapy documented at only 8 visits over approximately 6 weeks (03/05/2026\u201304/18/2026); some UHC Community Plan Maryland Medicaid criteria require a minimum of 6\u20138 weeks of formal supervised PT \u2014 this is borderline and may require explicit documentation that the PT course was clinically complete and that further PT was not expected to yield additional benefit.",
+            "Single corticosteroid injection administered on 04/05/2026 with 4-week follow-up on 05/03/2026; some payer policies require documentation of two failed injections or a longer post-injection observation window before surgical intervention is authorized, depending on the specific UHC Maryland Medicaid clinical policy in effect.",
+            "Mild medial compartment joint space narrowing on X-ray (03/01/2026) combined with chondral thinning on MRI may trigger a payer request for Kellgren-Lawrence grading or explicit radiologist/surgeon statement that osteoarthritis is not the primary diagnosis, since UHC and Maryland Medicaid policies frequently exclude arthroscopic meniscectomy for primarily degenerative/OA-driven pathology per AAOS and CMS guidance."
+          ],
+          "missing_documentation": [
+            "Explicit surgeon attestation or radiologist addendum confirming that the meniscal tear is traumatic/mechanical in etiology (posterior horn complex tear with extrusion) rather than primarily degenerative, and that chondral thinning is mild and not the primary pain generator \u2014 this directly addresses the degenerative OA exclusion.",
+            "Kellgren-Lawrence (K-L) grading of the medial compartment based on the 03/01/2026 X-ray; if K-L Grade is 0\u20132, document this explicitly to preempt osteoarthritis-based denial; if K-L Grade 3 or higher, additional justification will be required.",
+            "Physical therapist's formal discharge/plateau note from Dana Lewis, PT, DPT explicitly stating that maximum therapeutic benefit was achieved, further PT is not expected to improve function, and the patient has plateaued \u2014 a general reference to 'documented plateau' in the clinical notes may not satisfy payer reviewers without the actual PT discharge summary attached.",
+            "Surgeon's operative indication note or pre-op H&P explicitly listing mechanical symptoms (catching, locking, giving way) as primary surgical indication, distinct from pain alone, to support medical necessity for arthroscopic intervention over continued conservative management.",
+            "Documentation of patient's occupational functional demands as a maintenance supervisor and how current knee impairment constitutes a functional disability preventing return to work or required activities of daily living \u2014 while referenced in clinical notes, a formal functional capacity or occupational impact statement strengthens medical necessity.",
+            "Confirmation that the requested date of service (06/10/2026) falls within the authorization window requested, and that Harborview Ambulatory Surgery Center's facility NPI/TIN is included in the submission to satisfy UHC Maryland Medicaid facility credentialing requirements."
+          ],
+          "recommended_fixes": [
+            "Request that Dr. Bennett or the interpreting radiologist (Dr. Michael R. Shah) provide a one-paragraph addendum to the MRI report or a standalone attestation explicitly stating: (1) the tear is consistent with a traumatic/mechanical mechanism superimposed on mild background degeneration, (2) the chondral thinning is mild (not full-thickness), and (3) the primary surgical indication is the complex meniscal tear with mechanical symptoms, not osteoarthritis \u2014 this single document is the highest-yield fix to prevent an OA-exclusion denial.",
+            "Obtain the formal PT discharge summary from Dana Lewis, PT, DPT documenting the specific functional plateau, objective measures at discharge versus intake, and a clinical statement that further supervised PT is not expected to provide meaningful additional benefit \u2014 attach this as a discrete document rather than relying on a summary reference in the physician notes.",
+            "Have Dr. Bennett document in the pre-authorization letter or a supplemental note whether a second injection was considered and clinically contraindicated or not indicated given the mechanical nature of symptoms (catching/locking), since purely mechanical meniscal tears with locking are generally not expected to respond to additional injection therapy \u2014 this preempts a 'one injection is insufficient' denial.",
+            "Add explicit Kellgren-Lawrence grading (or a statement that grading was assessed) to the X-ray interpretation or surgeon's clinical note; if K-L Grade 1\u20132, state this clearly to document that significant osteoarthritis is absent and the procedure is not excluded under degenerative joint disease policy restrictions.",
+            "Ensure the authorization submission package includes the facility NPI and TIN for Harborview Ambulatory Surgery Center, the PCP referral from Dr. Samuel Ortiz (NPI 1841293765, dated 05/01/2026), and all 14 supporting documents listed in the attachments checklist are uploaded as individually labeled files (e.g., 'MRI Report 04-22-2026,' 'PT Discharge Summary,' 'LMN 05-14-2026') to prevent administrative rejection due to incomplete or mislabeled attachments.",
+            "If the payer requests peer-to-peer review, ensure Dr. Bennett is available to speak with the UHC Medical Director and is prepared to articulate: (1) the traumatic mechanism of injury, (2) the presence of true mechanical symptoms (locking/catching) that are not amenable to conservative care, (3) failed PT plateau with objective functional scores (KOOS-ADL 52, Lysholm 54), and (4) failed injection with only 1-week transient relief \u2014 these four elements collectively satisfy standard UHC Medicaid medical necessity criteria for CPT 29881."
+          ],
+          "summary": "This prior authorization request for right knee arthroscopy with partial medial meniscectomy (CPT 29881) is well-supported overall, with strong documentation including a confirmatory MRI, failed conservative care over 14+ weeks, a failed corticosteroid injection, objective functional impairment scores, and a signed Letter of Medical Necessity \u2014 resulting in a low denial risk score of 18/100. The primary vulnerability is the presence of mild chondral thinning and medial compartment joint space narrowing on imaging, which could trigger a payer-initiated osteoarthritis exclusion review; this risk is best mitigated by obtaining an explicit surgeon or radiologist attestation that the tear is traumatic/mechanical and that chondral changes are mild and not the primary pain driver. Secondary concerns include the borderline PT visit count and single injection, both of which can be addressed with a formal PT discharge/plateau note and a brief clinical rationale for why additional injection therapy would not address the patient's mechanical symptoms."
+        },
+        "submitted_by": "Admin"
+      }
+    ]
+  },
+  "95387426101": {
+    "patient_name": "Jordan M. Ellis",
+    "member_id": "95387426101",
+    "submissions": [
+      {
+        "id": "PA-1778875683",
+        "date": "May 15, 2026",
+        "timestamp": "2026-05-15T16:08:03.224600",
+        "procedure": "Right Knee Arthroscopy with Partial Medial Meniscectomy - CPT 29881",
+        "risk_score": 38,
+        "risk_level": "low",
+        "result": {
+          "risk_score": 38,
+          "risk_level": "Medium",
+          "denial_reasons": [
+            "Absence of corticosteroid or hyaluronic acid injection trial: UHC Community Plan policies for knee arthroscopy with meniscectomy (CPT 29881) typically require documented failure of at least one intra-articular injection trial (corticosteroid or viscosupplementation) prior to surgical authorization, unless contraindicated. No injection therapy was administered or contraindication documented.",
+            "Insufficient physical therapy duration or visit count: While 8 PT visits over approximately 6 weeks are documented (03/05/2026\u201304/18/2026), many UHC Community Plan medical necessity criteria require a minimum of 6\u20138 weeks of formal supervised PT with documented functional outcome measures. The visit count meets the minimum threshold, but the absence of standardized functional outcome scores (KOOS, Lysholm, or equivalent) weakens the demonstration of PT failure.",
+            "No formal functional outcome scores documented: UHC and most evidence-based criteria for knee arthroscopy require objective, validated functional outcome measures (e.g., KOOS, Lysholm, IKDC) to quantify baseline impairment and document failure to improve with conservative care. Only VAS pain scores and ROM measurements are present; no KOOS or Lysholm scores were recorded.",
+            "Mild chondral changes on MRI may trigger additional scrutiny: The MRI finding of mild medial compartment chondral thinning raises the question of whether the patient's symptoms are attributable to the meniscal tear versus early osteoarthritis. UHC policies may require the submitting physician to explicitly address this distinction and confirm that the primary pain generator is the meniscal tear, not degenerative joint disease.",
+            "Mild medial compartment joint space narrowing on X-ray: The 03/01/2026 X-ray finding of mild medial compartment joint space narrowing, in the context of chondral thinning on MRI, may prompt the payer to classify this as a degenerative rather than traumatic meniscal tear, which carries a higher denial risk under UHC's arthroscopy coverage criteria."
+          ],
+          "missing_documentation": [
+            "Documented trial of intra-articular injection therapy (corticosteroid or viscosupplementation) OR an explicit clinical contraindication statement explaining why injection therapy was not pursued (e.g., patient refusal with documented counseling, allergy, specific clinical contraindication).",
+            "Validated functional outcome scores at PT intake and discharge \u2014 specifically KOOS (Knee injury and Osteoarthritis Outcome Score), Lysholm Knee Scale, or IKDC score \u2014 to objectively quantify functional deficit and demonstrate failure to improve with conservative care.",
+            "Physician attestation or clinical narrative explicitly distinguishing the primary pain generator as the meniscal tear rather than degenerative chondral disease, given concurrent findings of chondral thinning and joint space narrowing.",
+            "Formal PT discharge summary or progress note documenting clinical plateau with objective measurements (not just a referral back to orthopedics), ideally including final functional status, goals not met, and therapist's clinical rationale for discharge.",
+            "Explicit documentation of symptom duration tied to the index injury date (02/08/2026) with a clear timeline confirming >6 weeks of conservative care failure prior to the authorization request \u2014 the current notes support this but should be explicitly stated in the LMN.",
+            "Clarification on whether the 'complex tear' morphology (posterior horn and body involvement with extrusion) was specifically discussed in the LMN as a factor supporting surgical intervention over continued conservative management."
+          ],
+          "recommended_fixes": [
+            "HIGHEST PRIORITY \u2014 Address the injection therapy gap: Either (a) schedule and document a corticosteroid injection trial with a follow-up note showing inadequate response before the 06/10/2026 surgery date, or (b) have Dr. Bennett add a specific, clinically supported contraindication statement to the LMN explaining why injection therapy is not appropriate for this patient (e.g., patient's mechanical locking symptoms, complex tear morphology with extrusion making injection unlikely to provide durable benefit, or patient-specific clinical factors). A vague omission will likely trigger a denial.",
+            "Add validated functional outcome scores immediately: Administer the KOOS or Lysholm scale at the next office visit and include the scored results in the authorization packet. If PT records are available with outcome data, extract and include them. Document the score alongside the VAS pain ratings already in the file to create a complete functional picture.",
+            "Strengthen the LMN with a dedicated degenerative vs. traumatic differentiation paragraph: Dr. Bennett should explicitly address the X-ray and MRI chondral findings, note the acute mechanism of injury (02/08/2026 twisting/stair descent), and state that the mechanical symptoms (catching, locking, McMurray-positive exam) are consistent with the meniscal tear as the primary pain generator rather than chondral degeneration. This directly preempts the most common denial rationale for this CPT code.",
+            "Request a formal PT discharge summary from Dana Lewis, PT, DPT: The current documentation references 8 visits and a plateau, but a formal discharge note with objective measurements, goals not achieved, and the therapist's clinical rationale for discontinuation will significantly strengthen the 'failure of conservative care' argument.",
+            "Reformat the LMN to explicitly map each UHC medical necessity criterion: Structure the letter so that each payer requirement (diagnosis with imaging confirmation, duration of conservative care \u22656 weeks, specific therapies tried and failed, functional limitations, surgical plan) is addressed as a labeled section. This reduces the risk of a reviewer missing key information buried in narrative prose.",
+            "Consider requesting a peer-to-peer review proactively: Given the moderate denial risk, instruct Dr. Bennett's office to immediately request a peer-to-peer call with the UHC medical director if an initial denial is issued. The clinical profile \u2014 acute traumatic mechanism, complex tear with extrusion, positive McMurray, documented functional limitations, 12+ weeks of conservative care \u2014 is strong and likely to succeed on peer-to-peer review if the injection gap is adequately addressed."
+          ],
+          "summary": "This prior authorization request for CPT 29881 (right knee arthroscopy with partial medial meniscectomy) has a solid clinical foundation \u2014 a well-documented acute meniscal tear, confirmed by MRI, with 12+ weeks of conservative care including supervised PT, NSAIDs, and activity modification, and a positive physical examination. However, the request carries a moderate denial risk (38/100) primarily because no intra-articular injection therapy was attempted and no formal functional outcome scores (KOOS/Lysholm) are included, both of which are commonly required by UHC Community Plan Maryland policies for this procedure. Additionally, concurrent MRI and X-ray findings of mild chondral thinning and joint space narrowing may prompt the payer to scrutinize whether this is a traumatic versus degenerative case, so the LMN should explicitly address this distinction. The provider should prioritize documenting an injection trial or a clear clinical contraindication, adding validated outcome scores, and strengthening the LMN before resubmitting to substantially improve the likelihood of approval."
+        },
+        "submitted_by": "Admin"
+      }
+    ]
+  }
+}

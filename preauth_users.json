@@ -1,0 +1,17 @@
+{
+  "admin": {
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "name": "Admin",
+    "role": "Administrator"
+  },
+  "drbennet": {
+    "password": "ec189984c5b36432f04401eb55b916a4801153d10b627bc4cc590382e27d1aa8",
+    "name": "Dr. Alicia Bennett",
+    "role": "Orthopedic Surgeon"
+  },
+  "maya": {
+    "password": "ee8480fe75a56061074493de0c8f31cf147009732789d76f76388628f6c38820",
+    "name": "Maya Reynolds",
+    "role": "PA Coordinator"
+  }
+}
